@@ -136,6 +136,10 @@ h1,h2,h3,h4,h5,h6,p{
 .first-sec{
     background: #2e2f42;
     padding:188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .lead-ins {
     font-weight: 700;
@@ -173,7 +177,17 @@ h1,h2,h3,h4,h5,h6,p{
 .benef{
     padding: 120px 0;
 }
-
+.benef-svg{
+    display: flex;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    align-items: center;
+    background: #f4f4fd;
+    justify-content: center;
+    margin-bottom: 8px;
+}
 .benef-ins {
     font-weight: 500;
     font-size: 20px;
@@ -245,6 +259,29 @@ h1,h2,h3,h4,h5,h6,p{
 .team {
     background: #f4f4fd;
     padding: 120px 0;
+}
+.team-svg{
+    fill: #fff;
+}
+.team-link-svg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:2px solid #4D5AE5;
+    border-radius:50%;
+    width: 40px;
+    height: 40px;
+    background-color: #4D5AE5;
+}
+.team-link-svg:hover{
+    background-color:#404BBF ;
+}
+.team-item-menu{
+    display: flex;
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-left: 16px;
+    gap: 24px;
 }
 /* ===============PORTFOLIO ============*/
 .port-inf{
