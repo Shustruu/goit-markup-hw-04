@@ -269,8 +269,6 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .team-svg{
     fill:#f4f4fd;
-    width: 16px;
-    height: 16px;
 }
 .team-link-svg{
     display: flex;
@@ -285,7 +283,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 .team-link-svg:hover,
 .team-link-svg:focus{
-    background-color:#404BBF ;
+    background-color: #404bbf; ;
 }
 .team-item-menu{
     display: flex;
@@ -365,6 +363,9 @@ h1,h2,h3,h4,h5,h6,p{
 footer {
     background: #2e2f42;
 }
+.container.cont-flex{
+    display: flex;
+}
 .footer-logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -407,9 +408,7 @@ footer {
     height: 40px;
     background-color: #4D5AE5;
 }
-.foot-flex{
-    display: flex;
-}
+
 .foot-item-menu{
     display: flex;
     gap: 16px;
