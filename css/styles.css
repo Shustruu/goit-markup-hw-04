@@ -274,7 +274,7 @@ h1,h2,h3,h4,h5,h6,p{
     display: flex;
     justify-content: center;
     align-items: center;
-    border:2px solid #4D5AE5;
+    border:0px solid #4D5AE5;
     border-radius:50%;
     width: 40px;
     height: 40px;
@@ -404,7 +404,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 2px solid #4D5AE5;
+    border: 0px solid #4D5AE5;
     border-radius: 50%;
     width: 40px;
     height: 40px;
